@@ -52,6 +52,7 @@ import (
 	"k8s.io/kubernetes/pkg/kubectl/cmd/explain"
 	"k8s.io/kubernetes/pkg/kubectl/cmd/expose"
 	"k8s.io/kubernetes/pkg/kubectl/cmd/get"
+	"k8s.io/kubernetes/pkg/kubectl/cmd/helloworld"
 	"k8s.io/kubernetes/pkg/kubectl/cmd/label"
 	"k8s.io/kubernetes/pkg/kubectl/cmd/logs"
 	"k8s.io/kubernetes/pkg/kubectl/cmd/options"
@@ -514,6 +515,12 @@ func NewKubectlCommand(in io.Reader, out, err io.Writer) *cobra.Command {
 				label.NewCmdLabel(f, ioStreams),
 				annotate.NewCmdAnnotate("kubectl", f, ioStreams),
 				completion.NewCmdCompletion(ioStreams.Out, ""),
+			},
+		},
+		{
+			Message: "My Learning Commands:",
+			Commands: []*cobra.Command{
+				helloworld.NewCmdHelloWorld(),
 			},
 		},
 	}
