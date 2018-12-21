@@ -258,6 +258,8 @@ docs/man/man1/kubectl-exec.1
 docs/man/man1/kubectl-explain.1
 docs/man/man1/kubectl-expose.1
 docs/man/man1/kubectl-get.1
+docs/man/man1/kubectl-hello-kubernetes.1
+docs/man/man1/kubectl-hello-world.1
 docs/man/man1/kubectl-label.1
 docs/man/man1/kubectl-logs.1
 docs/man/man1/kubectl-options.1
@@ -359,6 +361,8 @@ docs/user-guide/kubectl/kubectl_exec.md
 docs/user-guide/kubectl/kubectl_explain.md
 docs/user-guide/kubectl/kubectl_expose.md
 docs/user-guide/kubectl/kubectl_get.md
+docs/user-guide/kubectl/kubectl_hello-kubernetes.md
+docs/user-guide/kubectl/kubectl_hello-world.md
 docs/user-guide/kubectl/kubectl_label.md
 docs/user-guide/kubectl/kubectl_logs.md
 docs/user-guide/kubectl/kubectl_options.md
@@ -416,6 +420,8 @@ docs/yaml/kubectl/kubectl_exec.yaml
 docs/yaml/kubectl/kubectl_explain.yaml
 docs/yaml/kubectl/kubectl_expose.yaml
 docs/yaml/kubectl/kubectl_get.yaml
+docs/yaml/kubectl/kubectl_hello-kubernetes.yaml
+docs/yaml/kubectl/kubectl_hello-world.yaml
 docs/yaml/kubectl/kubectl_label.yaml
 docs/yaml/kubectl/kubectl_logs.yaml
 docs/yaml/kubectl/kubectl_options.yaml
